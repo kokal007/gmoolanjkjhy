@@ -1,0 +1,119 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.hed img{
+   width: 100%;
+}
+
+.section img{
+    width: 100%;
+}
+
+.p1{
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+button{
+    font-size: .875rem;
+font-weight: 600;
+padding: .9rem 4rem;
+    border-radius: 100px;
+    background-color: rgb(0, 46, 109);
+    border: none;
+    color: white;
+    margin-top: 20px;
+}
+
+
+
+
+.pay{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.cc{
+    width: 50%;
+
+}
+
+.btn2{
+    width: 100%;
+    margin: 20px 0px;
+    color: #ffffff;
+    background-color: #336;
+    border: none;
+    padding: 10px;
+    font-size: 17px;
+}
+
+.in2{
+    display: flex;
+    
+}
+input{
+    margin-top: 10px;
+    border: 1px solid #cecece;
+border-radius: .25rem;
+color: #494949;
+display: block;
+font-size: 1rem;
+font-weight: 400;
+height: calc(2.64rem + 2px);
+line-height: 1.5;
+padding: .57rem .75rem;
+transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+margin-bottom: 20px;
+width: 100%;
+outline: none;
+}
+
+.mm{
+    margin-right: 15px;
+}
+
+
+
+
+
+.section3{
+    padding: 10px 20px;
+}
+
+
+
+.kolch{
+    padding: 1.5rem;
+    margin-top: 30px;
+    margin: 0 15px;
+    box-shadow: 1px 1px 9px 0px rgba(75, 75, 75, 0.199);
+    
+    background-color: white;
+}
+
+.exp{
+    display: flex;
+}
+.cvv{
+    width: 50%;
+}
+
+
+.hed2{
+    margin: 0 12px;
+}
+.hed2 img{
+    width: 100%;
+    
+}

